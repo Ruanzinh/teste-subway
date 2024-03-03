@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script type="text/javascript">
+        const URLParams = new URLSearchParams(window.location.search);
+        const aposta = URLParams.get("aposta") ? ? 5;
+        const xmeta = 1;
+        const coinRate = 1.30;
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, viewport-fit=cover" />
+    <link rel="manifest" href="subwaysurfers.webmanifest">
+    <link rel="icon" href="assets/images/app-icon-16.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/app-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/app-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/images/app-icon-57.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/app-icon-57.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta name="robots" content="noindex,nofollow" />
+    <title>
+        Subway Pay 🌊 MODIFICADO BY DOLLY
+    </title>
+
+    <link href="/arquivos/page.css" rel="stylesheet" type="text/css">
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            height: 100%;
+            background-color: #0b316b;
+            overflow: hidden;
+            background-image: url('assets/preload/splash.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #message {
+            text-align: center;
+            font-size: 8px;
+            z-index: 5;
+            font-family: "Verdana", sans-serif;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            z-index: 9999;
+        }
+
+        .dot {
+            display: inline;
+            margin-left: 0.2em;
+            margin-right: 0.2em;
+            position: relative;
+            top: -1em;
+            font-size: 3.5em;
+            opacity: 0;
+            animation: showHideDot 2.5s ease-in-out infinite;
+        }
+
+        .dot.one {
+            animation-delay: 0.2s;
+        }
+
+        .dot.two {
+            animation-delay: 0.4s;
+        }
+
+        .dot.three {
+            animation-delay: 0.6s;
+        }
+
+        @keyframes showHideDot {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            60% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        button#sair {
+            position: absolute;
+            display: none;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #52d017;
+            border-radius: 10px;
+            z-index: 100000;
+        }
+
+        button#sair:hover {
+            transform: translateX(-50%) translateX(4px) translateY(-4px);
+        }
+
+        .container-fill-meta {
+            position: absolute;
+            top: 15em;
+            right: 0;
+            height: fit-content;
+        }
+
+        .into-container-fill-meta {
+            position: relative;
+            width: 100%;
+            height: fit-content;
+            z-index: 999;
+        }
+
+        .meta-card {
+            width: max-content;
+            background-color: #0007;
+            color: #fff;
+            z-index: 10;
+            padding: 1rem;
+            text-align: center;
+            font-family: right grotesk, sans-serif;
+            font-size: 2.5em;
+            border-radius: 10px 0 0 10px;
+        }
+
+        @media (max-width: 910px) {
+            .container-fill-meta {
+                top: 16vh;
+            }
+            .meta-card {
+                font-size: 3vh;
+                padding: 1.5vh;
+            }
+        }
+
+        @media (max-height: 719px) {
+            .container-fill-meta {
+                top: 21vh;
+            }
+            .meta-card {
+                font-size: 4vh;
+                padding: 2vh;
+            }
+        }
+
+        @media (max-width: 599px) {
+            .container-fill-meta {
+                top: 16vh;
+            }
+            .meta-card {
+                font-size: 3vh;
+                padding: 1.5vh;
+            }
+        }
+    </style>
+
+
+
+    <!-- Google Tag (gtag.js) 1 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F14XKVDMV0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-F14XKVDMV0');
+    </script>
+    <!-- End Google Tag (gtag.js) 1 -->
+
+    <!-- Google Tag Manager Code 1 -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NC7J6DLX');
+    </script>
+    <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC7J6DLX" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+    <!-- End Google Tag Manager 1 -->
+
+    <!-- Facebook Pixel Code 1 -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '296775649907646');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+            <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=296775649907646&ev=PageView&noscript=1" />
+        </noscript>
+    <!-- End Facebook Pixel Code 1 -->
+
+    <!-- Kwai Pixel 1 -->
+    <script>
+        ! function(e, t) {
+            "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.install = t() : e.install = t()
+        }(window, (function() {
+            return function(e) {
+                var t = {};
+
+                function n(r) {
+                    if (t[r]) return t[r].exports;
+                    var o = t[r] = {
+                        i: r,
+                        l: !1,
+                        exports: {}
+                    };
+                    return e[r].call(o.exports, o, o.exports, n), o.l = !0, o.exports
+                }
+                return n.m = e, n.c = t, n.d = function(e, t, r) {
+                    n.o(e, t) || Object.defineProperty(e, t, {
+                        enumerable: !0,
+                        get: r
+                    })
+                }, n.r = function(e) {
+                    "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+                        value: "Module"
+                    }), Object.defineProperty(e, "_esModule", {
+                        value: !0
+                    })
+                }, n.t = function(e, t) {
+                    if (1 & t && (e = n(e)), 8 & t) return e;
+                    if (4 & t && "object" == typeof e && e && e.esModule) return e;
+                    var r = Object.create(null);
+                    if (n.r(r), Object.defineProperty(r, "default", {
+                            enumerable: !0,
+                            value: e
+                        }), 2 & t && "string" != typeof e)
+                        for (var o in e) n.d(r, o, function(t) {
+                            return e[t]
+                        }.bind(null, o));
+                    return r
+                }, n.n = function(e) {
+                    var t = e && e.esModule ? function() {
+                        return e.default
+                    } : function() {
+                        return e
+                    };
+                    return n.d(t, "a", t), t
+                }, n.o = function(e, t) {
+                    return Object.prototype.hasOwnProperty.call(e, t)
+                }, n.p = "", n(n.s = 0)
+            }([function(e, t, n) {
+                "use strict";
+                var r = this && this._spreadArray || function(e, t, n) {
+                    if (n || 2 === arguments.length)
+                        for (var r, o = 0, i = t.length; o < i; o++) !r && o in t || (r || (r = Array.prototype.slice.call(t, 0, o)), r[o] = t[o]);
+                    return e.concat(r || Array.prototype.slice.call(t))
+                };
+                ! function(e) {
+                    var t = window;
+                    t.KwaiAnalyticsObject = e, t[e] = t[e] || [];
+                    var n = t[e];
+                    n.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie"];
+                    var o = function(e, t) {
+                        e[t] = function() {
+                            var n = Array.from(arguments),
+                                o = r([t], n, !0);
+                            e.push(o)
+                        }
+                    };
+                    n.methods.forEach((function(e) {
+                        o(n, e)
+                    })), n.instance = function(e) {
+                        var t = n._i[e] || [];
+                        return n.methods.forEach((function(e) {
+                            o(t, e)
+                        })), t
+                    }, n.load = function(t, r) {
+                        n._i = n._i || {}, n._i[t] = [], n._i[t]._u = "https://s1.kwai.net/kos/s101/nlav11187/pixel/events.js", n._t = n._t || {}, n._t[t] = +new Date, n._o = n._o || {}, n._o[t] = r || {};
+                        var o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.src = "https://s1.kwai.net/kos/s101/nlav11187/pixel/events.js?sdkid=" + t + "&lib=" + e;
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i)
+                    }
+                }("kwaiq")
+            }])
+        }));
+    </script>
+    <script>
+        kwaiq.load('578828521851072522');
+        kwaiq.page();
+    </script>
+    <!-- End Kwai Pixel 1 -->
+
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
+</head>
+
+    </script>
+    <div id="message">
+        <h3>Carregando</h3>
+        <h1 class="dot one">.</h1>
+        <h1 class="dot two">.</h1>
+        <h1 class="dot three">.</h1>
+    </div>
+
+    <div class="container-fill-meta" style="display:none" id="containerMeta">
+        <div class="into-container-fill-meta">
+            <div class="meta-card">
+                <span>
+                    R$
+                    <span id="meta"></span> 💰
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/loading.js"></script>
+    <script src="js/boot.js?v=1709476684"></script>
+</body>
+
+</html>
